@@ -111,7 +111,6 @@ const UploadCSV = () => {
   );
 };
 
-// Helper function to count occurrences of a sentiment in results
 const countSentiment = (results, sentiment) => {
   return results.filter(review => review.sentiment === sentiment).length;
 };
